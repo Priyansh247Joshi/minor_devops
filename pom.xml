@@ -26,6 +26,13 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+  <distributionManagement>
+  <snapshotRepository>
+    <id>devops_minor2</id>
+    <name>devops_minor2</name>
+    <url>http://localhost:8081/repository/devops_minor2/</url>
+  </snapshotRepository>
+</distributionManagement>
 
   <build>
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
